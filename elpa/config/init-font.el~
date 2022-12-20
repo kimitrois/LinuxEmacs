@@ -1,0 +1,53 @@
+;;;###autoload
+(defun +kyd/set-cn-fonts ()
+  (interactive)
+  (dolist (charset '(kana han symbol cjk-misc bopomofo chinese-gbk))
+    (set-fontset-font
+     "fontset-default"
+     charset
+     (font-spec :name +kyd/cn-font
+                :weight 'bold
+                :slant 'normal
+                :size +kyd/font-size))))
+;;;###autoload
+(defun +kyd/set-fonts ()
+  (interactive)
+  (when (window-system)
+    (progn
+      ;; 设置Emoji字体
+      (let ((fonts '("Noto Color Emoji")))
+        (cl-loop with script = (if (>= emacs-major-version 28)
+        'emoji 'unicode)
+                 for font in fonts
+                 when (member font (font-family-list))
+                 return (set-fontset-font t script (font-spec
+						    :family font) nil 'prepend)))
+      ;; 设置default face字体
+      (set-face-attribute
+       'default nil
+       :font (font-spec :family +kyd/en-font
+                        :weight 'normal
+                        :slant 'normal
+                        :size +kyd/font-size))
+      ;; 设置fixed-pitch-serif face字体
+      (set-face-attribute
+       'fixed-pitch-serif nil
+       :font (font-spec :family +kyd/en-font
+                        :weight 'normal
+                        :slant 'italic
+                        :size +kyd/font-size))
+      (+kyd/set-cn-fonts))))
+
+(setq +kyd/en-font "FuraMono Nerd Font"
+      +kyd/cn-font "TH-Khaai-TP2"
+      +kyd/font-size 13.5)
+
+(set-default-coding-systems 'utf-8) 
+(setq default-buffer-file-coding-system 'utf-8) 
+(set-terminal-coding-system 'utf-8) 
+(set-keyboard-coding-system 'utf-8) 
+(set-language-environment “UTF-8”) 
+(prefer-coding-system 'utf-8) 
+(prefer-coding-system 'gb2312)
+
+(provide 'init-font)

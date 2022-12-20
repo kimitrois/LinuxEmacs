@@ -1,0 +1,9 @@
+;;; emms history -*- mode: emacs-lisp; coding: utf-8; -*-
+(
+;; active playlist
+" *EMMS Playlist*"
+;; playlists: ((BUFFER_NAME SELECT_POSITION TRACKS) ...)
+((" *EMMS Playlist*" 1 ((*track* (type . file) (name . "/Users/dongky/#help#")) (*track* (type . file) (name . "/Users/dongky/.489440.padl")) (*track* (type . file) (name . "/Users/dongky/.CFUserTextEncoding")) (*track* (type . file) (name . "/Users/dongky/.DS_Store")) (*track* (type . file) (name . "/Users/dongky/.bash_profile")) (*track* (type . file) (name . "/Users/dongky/.emacs-profiles.el")) (*track* (type . file) (name . "/Users/dongky/.gitconfig")) (*track* (type . file) (name . "/Users/dongky/.lesshst")) (*track* (type . file) (name . "/Users/dongky/.python_history")) (*track* (type . file) (name . "/Users/dongky/.rnd")) (*track* (type . file) (name . "/Users/dongky/.spacemacs")) (*track* (type . file) (name . "/Users/dongky/.spacemacs.env")) (*track* (type . file) (name . "/Users/dongky/.viminfo")) (*track* (type . file) (name . "/Users/dongky/.zcompdump")) (*track* (type . file) (name . "/Users/dongky/.zcompdump-KY的MacBook Air-5.8.1")) (*track* (type . file) (name . "/Users/dongky/.zprofile")) (*track* (type . file) (name . "/Users/dongky/.zprofile.pysave")) (*track* (type . file) (name . "/Users/dongky/.zsh_history")) (*track* (type . file) (name . "/Users/dongky/.zshrc")) (*track* (type . file) (name . "/Users/dongky/.zshrc.pre-oh-my-zsh")) (*track* (type . file) (name . "/Users/dongky/emacs-async-comp-china-util.el-1CwAOL.el")) (*track* (type . file) (name . "/Users/dongky/forhomework.pdf")) (*track* (type . file) (name . "/Users/dongky/incr-0.2.zsh")) (*track* (type . file) (name . "/Users/dongky/mansfield.pdf")))))
+;; play method
+((emms-repeat-track) (emms-repeat-playlist))
+)

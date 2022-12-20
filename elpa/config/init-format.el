@@ -1,0 +1,5 @@
+(require 'apheleia)
+(apheleia-global-mode +1)
+;; (setf (alist-get 'prettier apheleia-formatters)
+;;       '("prettier" "--stdin-filepath"  "| cat" buffer-file-name))
+(provide 'init-apheleia)

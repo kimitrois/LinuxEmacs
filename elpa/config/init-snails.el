@@ -1,0 +1,5 @@
+(require 'snails)
+(setq snails-show-with-frame nil)
+;(add-hook 'snails-mode-hook (lambda ()
+			      ;(meow-insert)))
+(provide 'init-snails)

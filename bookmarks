@@ -1,0 +1,35 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("treeorthree"
+ (filename . "~/localtrans/Teaching Files/treeorthree/")
+ (front-context-string . "..\n  -rwxr--r-- ")
+ (rear-context-string . "96 12月 16 17:38 ")
+ (position . 197))
+("org-capture-last-stored-marker"
+ (filename . "~/ForTest/evan/org/todo.org")
+ (front-context-string . "** TODO [#B] tes")
+ (rear-context-string . "1-13 Sun 23:43>\n")
+ (position . 148))
+("org-refile-last-stored"
+ (filename . "~/ForTest/evan/org/todo.org")
+ (front-context-string . "** TODO [#B] tes")
+ (rear-context-string . "1-13 Sun 23:43>\n")
+ (position . 148))
+("org-capture-last-stored"
+ (filename . "~/Documents/JianGuo/org/roam/standard/20221216164712-testforcodingsys.org")
+ (front-context-string)
+ (rear-context-string . "s\n#+filetags:  \n")
+ (position . 108))
+("ubconfig"
+ (filename . "~/.emacs.ub/elpa/config/")
+ (front-context-string . "init-awesome-tra")
+ (rear-context-string . "005 10  9 17:57 ")
+ (position . 241))
+("profile"
+ (filename . "~/.emacs-profiles.el")
+ (front-context-string . "((\"default\" . ((")
+ (rear-context-string)
+ (position . 1))
+)

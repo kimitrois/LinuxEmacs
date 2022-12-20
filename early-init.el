@@ -1,0 +1,23 @@
+(require 'package)
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("gnu" . "https://elpa.gnu.org/packages/")))
+;                         ("org" . "http://orgmode.org/elpa/")))
+(add-to-list 'package-archives
+           '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(add-to-list 'package-pinned-packages '(telega . "melpa-stable"))
+
+;; 增加IO性能
+(setq read-process-output-max (* 10240 1024))
+(setq process-adaptive-read-buffering nil)
+(setq gc-cons-percentage 1.0)
+(setq gc-cons-threshold most-positive-fixnum)
+(require 'cl-lib)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+(add-to-list 'load-path "~/.emacs.d/elpa/ef-themes-0.7.0/")
+(add-to-list 'load-path "~/.emacs.d/elpa/dash-2.19.1/")
+(require 'dash)
+;(require 'doom-themes)
+(require 'ef-themes)
+(load-theme 'ef-dark t)

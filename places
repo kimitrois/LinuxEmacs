@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/kyd/.emacs.d/elpa/config/init-eaf.el" . 560)
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/ForReal/idiomatic_english.org" . 834)
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/ForReal/forreal3.org" . 1159)
+ ("/home/kyd/localtrans/Teaching Files/treeorthree/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files/treeorthree/.."))
+ ("/home/kyd/"
+  (dired-filename . "/home/kyd/localtrans"))
+ ("/home/kyd/localtrans/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files"))
+ ("/home/kyd/localtrans/Teaching Files/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files/treeorthree"))
+ ("/home/kyd/.emacs.d/elpa/config/init-font.el" . 1366)
+ ("/home/kyd/.emacs.d/elpa/config/init-key.el" . 8229)
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/NewConcept/new_concept1.org" . 163)
+ ("/home/kyd/.zshrc" . 4432)
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/NewConcept/new_concept2_linux.org" . 2565)
+ ("/home/kyd/localtrans/Teaching Files/New Concept English/第二册动画/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files/New Concept English/第二册动画/新概念英语 第二册 （美音版）动画 (P3. 2-03  Please send me a card).flv"))
+ ("/home/kyd/localtrans/Teaching Files/New Concept English/动画/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files/New Concept English/动画/全1-4册260集《新概念英语动画》 (P2. lesson 3).mp4"))
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/NewConcept/"
+  (dired-filename . "/home/kyd/Documents/JianGuo/org/roam/Teaching/NewConcept/new_concept2.org"))
+ ("/home/kyd/Documents/JianGuo/org/roam/Teaching/"
+  (dired-filename . "/home/kyd/Documents/JianGuo/org/roam/Teaching/NewConcept"))
+ ("/home/kyd/Documents/JianGuo/org/roam/"
+  (dired-filename . "/home/kyd/Documents/JianGuo/org/roam/Teaching"))
+ ("/home/kyd/Documents/JianGuo/org/"
+  (dired-filename . "/home/kyd/Documents/JianGuo/org/roam"))
+ ("/home/kyd/Documents/JianGuo/"
+  (dired-filename . "/home/kyd/Documents/JianGuo/org"))
+ ("/home/kyd/Documents/"
+  (dired-filename . "/home/kyd/Documents/JianGuo"))
+ ("/home/"
+  (dired-filename . "/home/kyd"))
+ ("/home/kyd/localtrans/Teaching Files/New Concept English/"
+  (dired-filename . "/home/kyd/localtrans/Teaching Files/New Concept English/第二册动画"))
+ ("/home/kyd/.emacs.d/elpa/config/Gpkg/"
+  (dired-filename . "/home/kyd/.emacs.d/elpa/config/Gpkg/auto-save"))
+ ("/home/kyd/.emacs.d/elpa/config/init-dirvish.el" . 660)
+ ("/home/kyd/.emacs.d/elpa/config/"
+  (dired-filename . "/home/kyd/.emacs.d/elpa/config/Gpkg"))
+ ("/home/kyd/.emacs.d/elpa/"
+  (dired-filename . "/home/kyd/.emacs.d/elpa/config"))
+ ("/home/kyd/.emacs.d/"
+  (dired-filename . "/home/kyd/.emacs.d/elpa"))
+ ("/home/kyd/Pictures/"
+  (dired-filename . "/home/kyd/Pictures/寰愮⒓瀛楁牴閸典綅鍦朏orFudan瑾挎暣.jpg"))
+ ("/home/kyd/Documents/JianGuo/org/todo.org" . 112)
+ ("/home/kyd/Documents/JianGuo/org/roam/standard/20221216164712-testforcodingsys.org" . 119)
+ ("/home/kyd/.elfeed/index" . 630)
+ ("/home/kyd/localtrans/url.txt" . 724)
+ ("/home/kyd/.emacs.d/elpa/config/init-emacs.el" . 1208)
+ ("/home/kyd/Downloads/clash-for-linux/start.sh" . 874)
+ ("/home/kyd/.emacs.d/elpa/config/init-org-roam.el" . 316)
+ ("/home/kyd/.emacs.d/elpa/org-roam-20221205.355/org-roam-autoloads.el" . 13451))

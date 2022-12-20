@@ -1,0 +1,5 @@
+(require 'org-agenda)
+(setq org-directory "~/Documents/JianGuo/org/")
+(defun +kyd/setup-org-agenda ()
+  (setq org-agenda-files '("~/Documents/JianGuo/org/todo.org")))
+(provide 'init-org-agenda)
